@@ -2,6 +2,7 @@ import React,{useState} from 'react'// https://v1docs.moralis.io/moralis-dapp/we
 import Button from 'react-bootstrap/Button';
 // import bootstrap
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// useMoralis me authenticate, account, isAuthenticated, Moralis hota hai
 import { useMoralis } from "react-moralis";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
