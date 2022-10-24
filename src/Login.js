@@ -13,6 +13,7 @@ import './Login.css'
 function Login() {
   const [beforeText,setBeforeText] = useState('harry potter')
   const [select,setSelect] = useState({q:'q',q1:'q'})
+//   Derive karna hota hai in sab cheezon ko useMoralis se
     const { authenticate, account,Moralis } = useMoralis();
     const arr=[{title: 
       'Rich Dad Poor Dad',
