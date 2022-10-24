@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 // import bootstrap
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // useMoralis me authenticate, account, isAuthenticated, Moralis hota hai
+// therefore react-moralis se {useMoralis} ko import kara hai
 import { useMoralis } from "react-moralis";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
