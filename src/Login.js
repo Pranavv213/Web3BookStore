@@ -1,5 +1,6 @@
 import React,{useState} from 'react'// https://v1docs.moralis.io/moralis-dapp/web3-api/token
 import Button from 'react-bootstrap/Button';
+// import bootstrap
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { useMoralis } from "react-moralis";
 import Container from 'react-bootstrap/Container';
