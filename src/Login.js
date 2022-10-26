@@ -12,7 +12,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import './Login.css'
 function Login() {
   const [beforeText,setBeforeText] = useState('harry potter')
-  const q=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+  const q=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
   const [select,setSelect] = useState({q:'q',q1:'q'})
 //   Derive karna hota hai in sab cheezon ko useMoralis se
     const { authenticate, account,Moralis } = useMoralis();
